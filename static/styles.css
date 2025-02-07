@@ -1,0 +1,50 @@
+/* El fondo de toda la página será rojo */
+body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del perfil */
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    text-align: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.perfil h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.perfil p {
+    font-size: 1.2rem;
+}
+
+.perfil a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.perfil .button {
+    background-color: white;
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
