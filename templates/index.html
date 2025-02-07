@@ -1,20 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Profesional de Raúl Canchumanya</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil de Desarrollador Web</title>
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="static/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="perfil">
-        <img src="{{ url_for('static', filename='images/imagen.png') }}">
-        <h1>Canchumanya Sain Raúl</h1>
-        <p>Desarrollador Web y Estudiante de Ingeniería de Sistemas.</p>
-        <p><strong>Contacto:</strong></p>
-        <p>Teléfono: <a href="tel:+51960926073">960926073</a></p>
-        <p>Correo: <a href="mailto:i2316043@continental.edu.pe">i2316043@continental.edu.pe</a></p>
+  <div class="container">
+    <!-- Encabezado -->
+    <header>
+      <h1>Mi Perfil</h1>
+      <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </header>
 
-    </div>
+    <!-- Hero / Presentación -->
+    <section class="hero">
+      <img src="static/images/foto.png" alt="Descripción de la imagen">
+
+      <h2>SAIN RAUL CANCHUMANYA CANCHUMANYA</h2>
+      <p>Desarrollador Web | Innovador | Apasionado por el código</p>
+    </section>
+
+    <!-- Acerca de mí -->
+    <section class="about" id="about">
+      <h2>Sobre mí</h2>
+      <p>Soy SAIN RAUL CANCHUMANYA CANCHUMANYA, un desarrollador web apasionado por crear experiencias digitales únicas. Me especializo en diseñar y desarrollar aplicaciones web interactivas y funcionales, que no solo cumplan con las expectativas, sino que superen las de los usuarios. Mi objetivo es siempre aportar soluciones innovadoras y eficientes en cada proyecto.</p>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills" id="skills">
+      <h2>Habilidades</h2>
+      <div class="skills-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">C#</div>
+        <div class="skill">Angular</div>
+        <div class="skill">MySQL</div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="projects" id="projects">
+      <h2>Mis Proyectos</h2>
+      <div class="projects-list">
+        <div class="project">
+          <h3>Proyecto Web 1</h3>
+          <p>Descripción breve de mi primer proyecto web.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="project">
+          <h3>Proyecto Web 2</h3>
+          <p>Descripción breve de mi segundo proyecto web.</p>
+          <a href="#">Ver más</a>
+        </div>
+        <div class="project">
+          <h3>Proyecto Web 3</h3>
+          <p>Descripción breve de mi tercer proyecto web.</p>
+          <a href="#">Ver más</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contact">
+      <h2>Contacto</h2>
+      <p>Email: <a href="mailto:i2316043@continental.edu.pe">i2316043@continental.edu.pe</a></p>
+      <p>Teléfono: +51 960926073</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/tuperfil" target="_blank">https://www.linkedin.com/feed/?trk=404_page</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 SAIN RAUL CANCHUMANYA CANCHUMANYA. Diseñado con ❤️.
+    </footer>
+  </div>
 </body>
 </html>
